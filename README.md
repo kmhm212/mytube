@@ -10,7 +10,7 @@ CREATE DATABASE mytube_db;
 
 CREATE USER mytube_admin IDENTIFIED BY '1234';
 
-GRANT ALL ON mytube_ad.* TO mytube_admin;
+GRANT ALL ON mytube_db.* TO mytube_admin;
 
 CREATE TABLE videos (
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
